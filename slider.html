@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Image Slider</title>
+</head>
+<body>
+
+    <div id="navbar">
+        <div class="logo">
+            <h1>Mono <span>Tech</span></h1>
+            <input type="enter your text">
+            <button class="btn">Search</button>
+
+            <div class="nav-names">
+                <ul><li><a href="#">Home</a></li></ul>
+                <ul><li><a href="#">Experience</a></li></ul>
+                <ul><li><a href="#">Services</a></li></ul>
+                <ul><li><a href="#">About</a></li></ul>
+                <ul><li><a href="#">Contact</a></li></ul>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container">
+
+        <div class="slider">
+            <div class="caption">Slider 1</div>
+            <img src="img/img1.jpg" alt="">  
+        </div>
+
+        <div class="slider">
+            <div class="caption">Slider 2</div>
+            <img src="img/img2.jpg" alt="">
+
+        </div>
+
+        <div class="slider">
+            <div class="caption">Slider 3</div>
+            <img src="img/img3.jpg" alt="">
+
+        </div>
+
+        <div class="slider">
+            <div class="caption">Slider 4</div>
+            <img src="img/img4.jpg" alt="">
+
+        </div>
+
+        <div class="slider">
+            <div class="caption">Slider 5</div>
+            <img src="img/img5.jpg" alt="">
+
+        </div>
+
+        <div class="slider">
+            <div class="caption">Slider 6</div>
+            <img src="img/img6.jpg" alt="">
+
+        </div> 
+
+        <span class="arrow prev" onclick="controller(-1)">&#10095;</span>
+        <span class="arrow next" onclick="controller(1)">&#10094;</span>
+
+
+
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
